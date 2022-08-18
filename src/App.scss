@@ -1,0 +1,89 @@
+body {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.item {
+  margin-bottom: 0.3rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+  height: 30px;
+  & > * {
+    margin-right: 5px;
+  }
+}
+
+.folderItem {
+  width: max-content;
+}
+
+.md-icon {
+  margin-right: 5px;
+}
+.smallIcon {
+  font-size: 15px;
+  &:hover {
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+.transparentIcon {
+  color: transparent;
+  &:hover {
+    font-size: 15px;
+    cursor: default;
+  }
+}
+
+.Actions {
+  background-color: rgba(231, 231, 231, 0.856);
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  & > * {
+    margin-right: 5px;
+  }
+}
+
+.inputBox {
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100px;
+  border: 1px solid #626264;
+}
+
+// .checkbox {
+//   box-sizing: border-box;
+//   display: flex;
+//   background-color: #0089eb;
+//   align-items: center;
+//   justify-content: center;
+//   height: 20px;
+//   width: 22px;
+//   padding: 3px;
+//   border-radius: 2px;
+
+//   & > div {
+//     height: 100%;
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     border: 1px solid white;
+//   }
+// }
+
+// .checkboxIcon {
+//   font-size: 14px;
+//   color: white;
+// }

@@ -1,0 +1,88 @@
+{
+  "name": "linux",
+  "type": "folder",
+  "identifier": "a",
+  "content": [
+    {
+      "name": "bin",
+      "type": "folder",
+      "identifier": "a1",
+      "content": [
+        {
+          "name": "bash",
+          "type": "folder",
+          "identifier": "a11",
+          "content": [
+            {
+              "name": "ntfs.xls",
+              "type": "file",
+              "identifier": "a111",
+              "content": []
+            }
+          ]
+        },
+        {
+          "name": "chown",
+          "type": "folder",
+          "identifier": "a12",
+          "content": [
+            {
+              "name": "tree.pdf",
+              "type": "file",
+              "identifier": "a121",
+              "content": []
+            }
+          ]
+        },
+        {
+          "name": "sudo.js",
+          "type": "file",
+          "identifier": "a13",
+          "content": []
+        },
+        {
+          "name": "rmdir.png",
+          "type": "file",
+          "identifier": "a14",
+          "content": []
+        }
+      ]
+    },
+    {
+      "name": "boot",
+      "type": "folder",
+      "identifier": "a2",
+      "content": [{}]
+    },
+    {
+      "name": "etc",
+      "type": "folder",
+      "identifier": "a3",
+      "content": [{}]
+    },
+    {
+      "name": "home",
+      "type": "folder",
+      "identifier": "a4",
+      "content": [{}]
+    },
+    {
+      "name": "lib",
+      "type": "folder",
+      "identifier": "a5",
+      "content": [{}]
+    },
+    {
+      "name": "hello world.txt",
+      "type": "folder",
+      "identifier": "a6",
+      "content": [{}]
+    },
+    {
+      "name": "typing.cpp",
+      "type": "file",
+      "identifier": "a7",
+      "content": [{}]
+    }
+  ]
+}
